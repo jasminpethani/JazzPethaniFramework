@@ -16,6 +16,7 @@
 		CB3C09111FE667550003242F /* JazzPethaniFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JazzPethaniFramework.h; sourceTree = "<group>"; };
 		CB3C09121FE667550003242F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3C09281FE667B60003242F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		CBF25AD21FE677510081D27E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +35,7 @@
 			children = (
 				CB3C09101FE667550003242F /* JazzPethaniFramework */,
 				CB3C090F1FE667550003242F /* Products */,
+				CBF25AD11FE677510081D27E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +55,14 @@
 				CB3C09281FE667B60003242F /* WebService.swift */,
 			);
 			path = JazzPethaniFramework;
+			sourceTree = "<group>";
+		};
+		CBF25AD11FE677510081D27E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF25AD21FE677510081D27E /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
