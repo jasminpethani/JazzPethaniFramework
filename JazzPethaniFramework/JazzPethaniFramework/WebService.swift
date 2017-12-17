@@ -21,8 +21,8 @@ public struct WebService {
           
           let dataTask = URLSession.shared.dataTask(with: url) {data,response,error in
                if error == nil {
-                    if let json = try? JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) as? String {
-                         debugPrint(json ?? "Parsing somehow nil")
+                    if let json = try? JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) {
+                         debugPrint(json)
                     }
                } else {
                     debugPrint(error?.localizedDescription ?? "Error in calling url")
