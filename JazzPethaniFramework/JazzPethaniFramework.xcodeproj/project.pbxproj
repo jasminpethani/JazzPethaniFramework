@@ -7,29 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB3C09181FE667560003242F /* JazzPethaniFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3C090E1FE667550003242F /* JazzPethaniFramework.framework */; };
-		CB3C091D1FE667560003242F /* JazzPethaniFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C091C1FE667560003242F /* JazzPethaniFrameworkTests.swift */; };
 		CB3C091F1FE667560003242F /* JazzPethaniFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3C09111FE667550003242F /* JazzPethaniFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3C09291FE667B60003242F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C09281FE667B60003242F /* WebService.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CB3C09191FE667560003242F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB3C09051FE667550003242F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB3C090D1FE667550003242F;
-			remoteInfo = JazzPethaniFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CB3C090E1FE667550003242F /* JazzPethaniFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JazzPethaniFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3C09111FE667550003242F /* JazzPethaniFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JazzPethaniFramework.h; sourceTree = "<group>"; };
 		CB3C09121FE667550003242F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB3C09171FE667560003242F /* JazzPethaniFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzPethaniFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB3C091C1FE667560003242F /* JazzPethaniFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazzPethaniFrameworkTests.swift; sourceTree = "<group>"; };
-		CB3C091E1FE667560003242F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3C09281FE667B60003242F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB3C09141FE667560003242F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB3C09181FE667560003242F /* JazzPethaniFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				CB3C09101FE667550003242F /* JazzPethaniFramework */,
-				CB3C091B1FE667560003242F /* JazzPethaniFrameworkTests */,
 				CB3C090F1FE667550003242F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				CB3C090E1FE667550003242F /* JazzPethaniFramework.framework */,
-				CB3C09171FE667560003242F /* JazzPethaniFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +53,6 @@
 				CB3C09281FE667B60003242F /* WebService.swift */,
 			);
 			path = JazzPethaniFramework;
-			sourceTree = "<group>";
-		};
-		CB3C091B1FE667560003242F /* JazzPethaniFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				CB3C091C1FE667560003242F /* JazzPethaniFrameworkTests.swift */,
-				CB3C091E1FE667560003242F /* Info.plist */,
-			);
-			path = JazzPethaniFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,24 +87,6 @@
 			productReference = CB3C090E1FE667550003242F /* JazzPethaniFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CB3C09161FE667560003242F /* JazzPethaniFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB3C09251FE667560003242F /* Build configuration list for PBXNativeTarget "JazzPethaniFrameworkTests" */;
-			buildPhases = (
-				CB3C09131FE667560003242F /* Sources */,
-				CB3C09141FE667560003242F /* Frameworks */,
-				CB3C09151FE667560003242F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB3C091A1FE667560003242F /* PBXTargetDependency */,
-			);
-			name = JazzPethaniFrameworkTests;
-			productName = JazzPethaniFrameworkTests;
-			productReference = CB3C09171FE667560003242F /* JazzPethaniFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,10 +100,6 @@
 					CB3C090D1FE667550003242F = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					CB3C09161FE667560003242F = {
-						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -173,20 +117,12 @@
 			projectRoot = "";
 			targets = (
 				CB3C090D1FE667550003242F /* JazzPethaniFramework */,
-				CB3C09161FE667560003242F /* JazzPethaniFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CB3C090C1FE667550003242F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB3C09151FE667560003242F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,23 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB3C09131FE667560003242F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB3C091D1FE667560003242F /* JazzPethaniFrameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CB3C091A1FE667560003242F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB3C090D1FE667550003242F /* JazzPethaniFramework */;
-			targetProxy = CB3C09191FE667560003242F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CB3C09201FE667560003242F /* Debug */ = {
@@ -379,34 +299,6 @@
 			};
 			name = Release;
 		};
-		CB3C09261FE667560003242F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JazzPethaniFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jasminpethani.JazzPethaniFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CB3C09271FE667560003242F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JazzPethaniFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jasminpethani.JazzPethaniFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,15 +316,6 @@
 			buildConfigurations = (
 				CB3C09231FE667560003242F /* Debug */,
 				CB3C09241FE667560003242F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB3C09251FE667560003242F /* Build configuration list for PBXNativeTarget "JazzPethaniFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB3C09261FE667560003242F /* Debug */,
-				CB3C09271FE667560003242F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

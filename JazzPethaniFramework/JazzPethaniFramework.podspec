@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "jazzp561" => "jazz.pethani@gmail.com" }
   s.social_media_url   = "https://twitter.com/jazzpethani"
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/jasminpethani/JazzPethaniFramework.git" }
+s.source       = { :git => "https://github.com/jasminpethani/JazzPethaniFramework.git", :tag => s.version }
   s.source_files  = "JazzPethaniFramework/**/*.swift"
   s.exclude_files = "JazzPethaniFramework/*.DS_Store"
 end
