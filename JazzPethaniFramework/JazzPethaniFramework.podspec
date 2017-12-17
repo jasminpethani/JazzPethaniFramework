@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author        = { "jazzp561" => "jazz.pethani@gmail.com" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/jasminpethani/JazzPethaniFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/jasminpethani/JazzPethaniFramework.git", :tag => "1.0.1" }
   s.source_files  = "JazzPethaniFramework/**/*.swift"
   s.exclude_files = "JazzPethaniFramework/*.DS_Store"
 end
